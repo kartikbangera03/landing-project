@@ -1,0 +1,178 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+
+    padding: 20px 350px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type:  none;
+}
+
+.navlinks{
+    display: flex;
+    
+}
+
+.links , .headerSecondaryText{
+    padding: 8px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.navbartwo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+
+    padding: 100px 350px;
+
+
+}
+
+.headerMainText{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:bolder;
+    width: 350px;
+    margin-bottom: 2px;
+}
+
+.headerSecondaryText{
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.navbarButton{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius:12px;
+    border: 2px solid #1F2937;
+    margin-top: 5px;
+}
+
+.navbartwoRight{
+    width: 700px;
+    height: 350px;
+    margin-bottom: 0;
+}
+
+.informationCards{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 100px 350px;
+    justify-content: center;
+}
+
+.informationHeaderText{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.AllCard{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.eachCard{
+    width: 175px;
+}
+
+.text{
+    font-size: 18px;
+    
+}
+
+.quoteSection{
+    background-color: #E5E7EB;
+}
+
+.quoteSection{
+    padding: 100px 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quoteSectionText, .quoteAuthor{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteAuthor{
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.callToActionButton{
+    padding: 100px 175px;
+    
+}
+
+.contentInRectangle{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    height: 200px ;
+}
+
+.BoldMessage, .NormalMessage, .RightElement{
+    color: #F9FAF8;
+}
+
+.RightElement{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 12px 28px;
+    border-radius:12px;
+    border: 2px solid #F9FAF8;
+    margin-right: 175px;
+}
+
+.leftElement{
+    padding-left: 175px;
+}
+
+
+.BoldMessage{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.NormalMessage{
+    font-size: 25px;
+}
